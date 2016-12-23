@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css"/>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/estilo.css?v=1">
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.placeholder.min.js"></script>
+		<script type="text/javascript" src="js/mascara.js"></script>
+		<script type="text/javascript" src="js/slick/slick.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+		<script src="js/janela.js"></script>
+		
+		<!--[if lt IE 9]>
+		 	<link rel="stylesheet" href="css/ie8.css">
+		 	<script src="js/html5shiv.min.js"></script>
+
+			
+         <![endif]-->
+		<meta charset="UTF-8">
+		<title>Login</title>
+
+	</head>
+	<body>
+		<div id="mascara"></div>
+		<header class="headerConteiner">
+			<div class="header">
+				<img src="img/logo_2.png" class="logo">
+				<img src="img/titulo.png" alt="" class="titulo">
+
+				<div class="caixa_login">
+
+					<form action="" class="login form-obrigatorio" id="loginForm" method="post" name="login_form">
+						<input type="hidden" name="vgn_realm1_nonce" value="4839d417a75d365b52e647910733a1ca">
+						<ul>
+							<li class="cpf"><input type="text" placeholder="Digite seu Cpf" name="logon" id="cpf" autocomplete="off" class="border-erro"></li>
+							<li class="senha"><input type="password" placeholder="Digite sua senha" name="password" autocomplete="off" class="border-erro"></li>
+							<li class="qra" style="display: none;">
+								<select name="qra" class="js-example-basic-single">
+									<option value="0">Selecione o QRA</option>
+									<option value="1">teste</option>
+									<option value="2">teste</option>
+								</select>
+							</li>
+							<li class="entrar"><input type="submit" value="entrar" class="inputEntrar"></li>
+						</ul>
+						<div class="msg-error msg-error-1">
+						<p class="resposta_error">CPF Inválido. Verifique e tente novamente</p>
+						
+						</div>
+						<div class="msg-error">
+							<p>A senha deve conter de 6 à 8 caracteres,<br/> Com letras e números</p>
+						</div>
+					</form>
+					
+						<ul class="opcoesDeLogin">
+							<li><input type="checkbox" name="manterConectado" value="manterConectado" class="manterConectado"></li>
+							<li class="conectado"><label for="remember">Mantenha-me conectado</label></li>
+							<li class="recuperarSenhaLi">
+								<a href="#" class="recuperarSenha">Esqueceu a senha?</a>
+							
+							</li>
+
+						</ul>
+						
+					</form>
+					
+				</div>
+			</div>
+		</header>
+		<div class="conteiner">
+			<ul class="slides">
+				<li class="imagem um">
+					<div class="caixaDeTexto">
+						<!-- <h1>Novo portal do prestador!</h1>
+						<p>Este é um canal exclusivo para prestadores de serviços do Porto Seguro. <br/> Seja bem Vindo!</p> --> 
+						<img src="img/bg_caixaDeTexto2.png" alt="">
+					</div>
+					<img src="img/01.png" alt="" class="">
+				</li>
+				<li class="imagem dois">
+					<div class="caixaDeTexto">
+						<!-- <h1>Novo portal do prestador!</h1>
+						<p>Este é um canal exclusivo para prestadores de serviços do Porto Seguro. <br/> Seja bem Vindo!</p>  -->
+						<img src="img/bg_caixaDeTexto2.png" alt="">
+					</div>
+					<img src="img/02.png" alt="">
+				</li>
+				<li class="imagem tres">
+					<div class="caixaDeTexto">
+						<!-- <h1>Novo portal do prestador!</h1>
+						<p>Este é um canal exclusivo para prestadores de serviços do Porto Seguro. <br/> Seja bem Vindo!</p>  -->
+						<img src="img/bg_caixaDeTexto2.png" alt="">
+					</div>
+					<img src="img/03.png" alt="">
+				</li>
+				<li class="imagem quatro">
+					<div class="caixaDeTexto">
+						<!-- <h1>Novo portal do prestador!</h1>
+						<p>Este é um canal exclusivo para prestadores de serviços do Porto Seguro. <br/> Seja bem Vindo!</p>  -->
+						<img src="img/bg_caixaDeTexto2.png" alt="">
+					</div>
+					<img src="img/04.png" alt="">
+				</li>
+			</ul>
+	
+		</div>
+		<footer>
+				<div class="faixaAzulEscuro">
+					<div>
+						<h1>Canais de atendimento</h1>
+						<ul>
+							<li class="email">sustentacao.portosocorro@portoseguro.com.br</li>
+							<li class="telefone"><a href="tel:40041243">Disque Porto Socorro - 4004 1243 (opção 7)</a></li>
+						</ul>
+						<p>Seja um prestador Porto Seguro. <a href="https://institucional.portoseguro.com.br/a-porto-seguro/trabalhe-conosco/seja-um-prestador-de-servicos" target="_blank"> Clique aqui e saiba mais!</a></p>
+						<div class="clear"></div>
+					</div>
+					
+				</div>
+
+				<div class="faixaAzulClaro">
+					<div>
+						<p class="copy">&copy 2016 Porto Seguro - Todos os direitos reservados</p>
+						<a href="http://www.portoseguro.com.br/politica-de-privacidade" class="politica_de_privacidade" target="_blank">Política de Privacidade</a>
+						<div class="clear"></div>
+					</div>
+
+				</div>
+		</footer>
+		<script>
+			$(document).ready(function(){
+				$('input, textarea').placeholder();
+			  $('.slides').slick({
+			  	autoplay: true,
+			  	autoplaySpeed: 5000,
+			  	  dots: true,
+				  infinite: true,
+				  // speed: 300,
+				  slidesToShow: 1,
+				  adaptiveHeight: true
+			  });
+			  	jQuery(function($){
+				    $("#cpf").mask("999.999.999-99",{completed:function(){
+				    	$('.qra, .entrar').fadeIn();
+
+				    }});
+				   // $("#senha").mask(" ");
+				});
+			 //  	$('#cpf').keydown( function(e) {
+
+			 //   console.log( $(this).val().length == 11 ) 
+			 //   // else { return false; }
+
+				// });
+
+
+			});
+
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+			  $(".js-example-basic-single").select2({
+			  	placeholder: "Selecione o QRA",
+			  	
+			  });
+			});
+
+		</script>
+
+		
+	</body>
+</html>

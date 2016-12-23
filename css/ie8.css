@@ -1,0 +1,375 @@
+ body {
+    height: auto;
+    /*padding-bottom: 150px;*/
+
+    
+ }
+
+ .header {
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 20px;
+    overflow: hidden;
+
+  }
+
+  .titulo {
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  .logo {
+    width: 160px;
+    height: 55px;
+    margin-bottom: 0;
+  }
+  .caixa_login {
+    width: auto;
+    float: right;
+    margin: 0 !important;
+  }
+
+  .login {
+    display: table;
+   /* padding-left: 20px;*/
+  }
+
+  .login li {
+    width: 160px;
+    float: left;
+    margin: 0 5px;
+    display: inline-block;
+
+  }
+
+  input {
+    padding: 10px 30px 8px 30px;
+    background-color: transparent;
+    /*padding-left: 30px;*/
+    font-size: 13px;
+    outline: none;
+    
+  }
+
+  input:focus{
+        padding: 10px 0;
+    background-color: transparent;
+    padding-left: 30px;
+    font-size: 13px;
+    outline: none;
+  }
+
+/*.qra {
+    width: 160px !important;
+    overflow: hidden;
+    
+  }
+
+.qra select {
+  width: 130% !important;
+    background-image: url(../img/seta_input.png);
+  background-repeat: no-repeat;
+  background-position: 10px 5px;
+  padding: 0 30px;
+    outline: none;
+  font-size: 13px;
+  -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   align-self: left;
+
+}*/
+
+
+
+  .entrar {
+    width: 87px !important;
+    border-radius: 8px;
+
+    
+   
+
+  }
+
+  .inputEntrar {
+      cursor: pointer;
+     font-size: 13px !important;
+  }
+
+  .opcoesDeLogin {
+    padding-left: 5px;
+    margin-top: 5px;
+  }
+
+  .opcoesDeLogin li {
+    max-width: 145px;
+    font-size: 12px;
+  }
+
+  .recuperarSenhaLi {
+    text-align: left;
+    margin-top: 3px;
+  }
+
+  .recuperarSenha {
+    font-size: 12px;
+
+
+  }
+
+  /* footer */
+/*  footer {
+    position: fixed;
+    bottom: 0;
+
+  }*/
+
+  .faixaAzulEscuro div {
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 5px;
+  }
+
+  .faixaAzulEscuro h1 {
+    margin-left: 5px;
+  }
+
+  .faixaAzulEscuro li{
+    max-width: 380px;
+    margin-top: 5px;
+    float: left;
+  }
+
+  .faixaAzulEscuro p {
+    max-width: 380px;
+    margin-top: 5px;
+    float: left;
+    padding: 5px 0;
+  }
+
+  .faixaAzulClaro div {
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 5px; 
+    padding-bottom: 8px;
+
+  }
+  .faixaAzulClaro p {
+    display: inline-block;
+  }
+
+  .faixaAzulClaro a {
+    float: right;
+    margin-top: 5px;
+
+  }
+  /*caixa de texto */
+
+  .caixaDeTexto {
+    width: 15%;
+    display: table;
+    height: 200px;
+    padding: 35px; 
+    position: absolute;
+    margin-left: 0;
+    top: 45px;
+    border-radius: 10px;
+    color: #fff;
+/*    background-image: url(../img/bg_caixaDeTexto.png);
+    background-repeat: no-repeat; */
+    overflow: hidden;
+    /*background-size: contain;*/
+   
+
+  }
+
+  .caixaDeTexto h1 {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .caixaDeTexto p {
+    max-width: 400px;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 300;
+
+
+  }
+
+  .conteiner {
+    position: relative;
+  }
+
+  .slick-dots li, .slick-dots li button  {
+    width: 25px;
+    height: 25px;
+  }
+
+  .slick-dots
+{
+    position: absolute;
+    bottom: 0;
+  }
+
+  /* modal */
+  .janela {
+
+  width: 600px;
+
+
+  }
+
+  .janela p {
+    width: 80% !important;
+  }
+
+.slick-dots li.slick-active 
+{
+    width: 26px;
+    height: 26px;
+   /* padding: 5px;*/
+    /*opacity: .75;*/
+     border: 0;
+    outline: none;
+    background: transparent;
+    color: black;
+     outline: none;
+    background-image: url(../img/ellipse_focus.png);
+    background-repeat: no-repeat;
+     background-size: 100%;
+}
+
+/* plugin select */
+
+
+        .select2-container--default .select2-selection--single {
+            background-color: transparent; 
+          border: none; 
+           border-radius: none;
+          
+        
+      }
+
+      .select2-selection {
+        outline: none;
+         }
+
+       .select2-selection--single {
+        outline: none;
+         
+       }
+
+      .select2-container--default .select2-selection--single .select2-selection__arrow  {
+        display: none;
+        
+      }
+
+      .select2-container--default .select2-selection--single .select2-selection__rendered {
+        outline: none;
+        font-size: 13px;
+        padding-left: 30px;
+        padding-right: 0;
+            background-image: url(../img/seta_input.png);
+        background-repeat: no-repeat;
+        background-position: 10px;
+        } 
+
+        .select2-container--default .select2-selection--single .select2-selection__placeholder {
+             color: #000;
+        }
+
+        .select2-results {
+          font-size: 13px;
+          text-align: center;
+       }
+
+        .select2 {
+        width: 160px !important;
+        outline: none !important;
+      }
+      .select2-container {
+        width: 160px !important;
+         outline: none !important;
+      }
+
+      .select2-container--default {
+        width: 160px !important;
+        outline: none !important;
+         
+      }
+      .select2-container--below {
+        width: 160px !important;
+        outline: none !important;
+      }
+
+      .select2-container--focus {
+        width: 160px !important;
+        outline: none !important;
+      }
+
+      .select2-search__field {
+        display: none;
+      }
+
+/* antigo*/
+
+.qra select{
+	padding-bottom: 10px;
+	height: 38px;
+}
+
+.manterConectado {
+	padding: 0;
+}
+
+.caixaDeTexto {
+	width: 482px !important;
+	margin-top: 0;
+	margin-left: 100px !important;
+}
+
+.politica_de_privacidade {
+	margin-right: 35px;
+}
+
+.janela {
+	left: 650px !important;
+	top: 333px !important;
+}
+
+.recuperarSenhaLi {
+	padding-left: 10px;
+}
+
+.conteiner {
+  height: auto;
+  overflow: hidden;
+}
+
+.imagem > img {
+	width: 100%;
+  height: 100%;
+}
+
+}
+
+  .border-erro {
+    border: 2px solid #f14848;
+  }
+
+  .msg-error {
+    width: auto;
+    height: auto;
+    margin-top: 5px;
+  }
+
+  .msg-error p{
+    color: #f14848;
+    font-size: 11px;
+    margin-left: 5px;
+    margin-top: 2px;
+   
+  }
